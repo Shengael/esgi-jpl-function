@@ -20,7 +20,7 @@
       "type": "serviceBus",
       "direction": "out",
       "name": "msg",
-      "queueName": "esgi-jpl-queue",
+      "queueName": "jplbus-queue",
       "connection": "AzureServiceBusConnectionString"
     }
   ]
