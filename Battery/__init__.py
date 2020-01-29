@@ -4,7 +4,7 @@ import azure.functions as func
 
 def main(request: func.HttpRequest, msg: func.Out[str]) -> func.HttpResponse:
     response = "le body n'a pas le format requis. {current_percentage: int (0 - 100)}"
-    speed = 1.5
+    speed = 90
     try:
         body = request.get_json()
 
